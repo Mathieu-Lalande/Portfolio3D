@@ -1,15 +1,15 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
-import logo from './logo.svg'
+import logo from './logo.png'
+import bhb from './bhb18.png'
+import giroscoutellier from './giroscoutellier.png'
+import ouidou from './ouidou.png'
+import refactor from './refactor.png'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    logo,
+    bhb,
+    giroscoutellier,
+    ouidou,
+    refactor
 }

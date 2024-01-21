@@ -8,21 +8,21 @@ const Projects = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        My{" "}
+        Mes{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
-          Projects
+          Projets
         </span>
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+      Les projets suivants mettent en valeur mes compétences et mon expérience à 
+      travers des exemples concrets de mon travail. Chaque projet est brièvement 
+      décrit avec des liens vers des référentiels de code et des démos en direct. 
+      Cela reflète ma capacité à résoudre des problèmes complexes, à travailler avec 
+      différentes technologies et à gérer des projets efficacement.
       </p>
 
-      <div className='flex flex-wrap my-20 gap-16'>
+      <div className='flex flex-wrap my-20 gap-16 rounded-xl'>
         {projects.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
@@ -42,19 +42,40 @@ const Projects = () => {
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
-                <Link
-                  to={project.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
-                >
-                  Live Link
-                </Link>
-                <img
-                  src={arrow}
-                  alt='arrow'
-                  className='w-4 h-4 object-contain'
-                />
+                {project.Gitlink && (
+                  <>
+                    <Link
+                      to={project.Gitlink}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='font-semibold text-blue-600'
+                    >
+                      Lien vers Github
+                    </Link>
+                    <img
+                      src={arrow}
+                      alt='arrow'
+                      className='w-4 h-4 object-contain mr-10'
+                    />
+                  </>
+                )}
+                {project.SeeLink && (
+                  <>
+                    <Link
+                      to={project.SeeLink}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='font-semibold text-blue-600'
+                    >
+                      Voir le projet
+                    </Link>
+                    <img
+                      src={arrow}
+                      alt='arrow'
+                      className='w-4 h-4 object-contain'
+                    />
+                  </>
+                )}
               </div>
             </div>
           </div>
