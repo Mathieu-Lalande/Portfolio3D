@@ -6,11 +6,11 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Bonjour, je suis
+        Bonjour, je m"appelle
         <span className='font-semibold mx-2 text-white'>Mathieu</span>
         👋
         <br />
-        Un développeur frontend & intégrateur Français 
+        Un suis un développeur fullstack Français 
       </h1>
     );
 
@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          J'ai travaillé avec de nombreuses entreprises me permettant<br /> de monter en compétence sur de nombreux sujets.
+          J'ai travaillé avec des grands groupes me permettant<br /> de monter en compétence sur de nombreux sujets.
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>

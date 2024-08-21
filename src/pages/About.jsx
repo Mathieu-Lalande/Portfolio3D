@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Bonjour, je suis{" "}
+        Bonjour, je m'appelle{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
           Mathieu
@@ -22,8 +22,8 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        Développeur frontend et intégrateur basé à bourges et Paris, 
-        spécialisé dans la refonte de site et leurs aspects.
+        Développeur fullstack basé sur Bourges et Paris, 
+        spécialisé dans la création de site, leur refonte et leurs aspects.
         </p>
       </div>
 
@@ -50,8 +50,8 @@ const About = () => {
         <h3 className='subhead-text'>Expériences professionnelles.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            J'ai travaillé avec différentes sortes d'entreprises, améliorant mes compétences et
-            faites équipe avec des gens passionnés. Voici le récapitulatif :
+            J'ai travaillé avec différentes groupes privés comme public,; ce qui m'a permis d'améliorer mes compétences et
+            faire équipe avec des gens passionnés. Voici le récapitulatif de mes projets personnels :
           </p>
         </div>
 

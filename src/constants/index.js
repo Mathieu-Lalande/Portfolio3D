@@ -1,6 +1,6 @@
 import { bhb, giroscoutellier, ouidou, refactor } from "../assets/images";
 import {
-    car,
+    nationsunis,
     contact,
     css,
     estate,
@@ -18,6 +18,8 @@ import {
     tailwindcss,
     threads,
     typescript,
+    angular,
+    primeng,
 } from "../assets/icons";
 
 export const skills = [
@@ -70,44 +72,44 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: angular,
+        name: "Angular",
+        type: "Frontend",
+    },
+    {
+        imageUrl: primeng,
+        name: "PrimeNG",
+        type: "Frontend",
     }
 ];
 
 export const experiences = [
     {
-        title: "Stagiaire architecte",
-        company_name: "Giros & Coutellier, Paris, France",
-        icon: giroscoutellier,
-        iconBg: "#fbcaaa",
-        date: "Mars 2018",
+        title: "Alternant Développeur Fullstack",
+        company_name: "Ouidou, Paris, France",
+        icon: ouidou,
+        iconBg: "#fbb667",
+        date: "Juil 2024 - Maintenant",
         points: [
-            "Immersion dans l'activité de l'agence.",
-            "Application logicielle : conception d'un modèle de lampe moderne.",
-            "Aide sur un logiciel 3D pour un projet d'hôtel à rénover.",
+            "Collaboration frontend et backend sur différents sites en développement utilisant Angular, Java & React.",
+            "Intervention sur la partie backend avec Java et Spring.",
+            "Création de composants réutilisables avec PrimeNG.",
+            "Création de la partie frontend d'une application de gestion de pubs ansi que de ses fonctionnalités clés.",
         ],
     },
     {
-        title: "Service Civique",
-        company_name: "Bourges Handball 18, Bourges, France",
-        icon: bhb,
-        iconBg: "#b7e4c9",
-        date: "Sept 2021 - Juin 2022",
-        points: [
-            "Coach d'une équipe de -15 ans évoluant en Départementale.",
-            "Coach -9 ans et BabyHand (3-8 ans) avec entraînement basé sur l'imagination de l'enfant.",
-            "Participation à la vie du club et aux événements. Maintenance du site internet Bourges handball 18.",
-        ],
-    },
-    {
-        title: "Stagiaire Développeur Web",
+        title: "Alternant Développeur Frontend & Intégrateur",
         company_name: "Ouidou, Paris, France",
         icon: ouidou,
         iconBg: "#2962ff",
-        date: "Juin 2022 - Oct 2022",
+        date: "Juil 2023 - Juil 2024",
         points: [
+            "Collaboration frontend sur différents sites en développement utilisant Angular & React.",
             "Refonte du site Ouidou avec Wordpress et code personnalisé.",
-            "Collaboration pour la version responsive du jeu YesOuiJump avec React.js.",
-            "Aide sur la version numérique de leur newsletter interne mensuelle.",
+            "Partie inscription avec appels API.",
+            "Refontes rapides et esthétiqsues de sites clients.",
         ],
     },
     {
@@ -124,15 +126,39 @@ export const experiences = [
         ],
     },
     {
-        title: "Alternant Développeur Frontend & Intégrateur",
+        title: "Stagiaire Développeur Web",
         company_name: "Ouidou, Paris, France",
         icon: ouidou,
         iconBg: "#2962ff",
-        date: "Juil 2023 - Maintenant",
+        date: "Juin 2022 - Oct 2022",
         points: [
-            "Collaboration frontend sur différents sites en développement utilisant Angular, Java & React.",
             "Refonte du site Ouidou avec Wordpress et code personnalisé.",
-            "Partie inscription avec appels API.",
+            "Collaboration pour la version responsive du jeu YesOuiJump avec React.js.",
+            "Aide sur la version numérique de leur newsletter interne mensuelle.",
+        ],
+    },
+    {
+        title: "Service Civique",
+        company_name: "Bourges Handball 18, Bourges, France",
+        icon: bhb,
+        iconBg: "#b7e4c9",
+        date: "Sept 2021 - Juin 2022",
+        points: [
+            "Coach d'une équipe de -15 ans évoluant en Départementale.",
+            "Coach -9 ans et BabyHand (3-8 ans) avec entraînement basé sur l'imagination de l'enfant.",
+            "Participation à la vie du club et aux événements. Maintenance du site internet Bourges handball 18.",
+        ],
+    },
+    {
+        title: "Stagiaire architecte",
+        company_name: "Giros & Coutellier, Paris, France",
+        icon: giroscoutellier,
+        iconBg: "#fbcaaa",
+        date: "Mars 2018",
+        points: [
+            "Immersion dans l'activité de l'agence.",
+            "Application logicielle : conception d'un modèle de lampe moderne.",
+            "Aide sur un logiciel 3D pour un projet d'hôtel à rénover.",
         ],
     },
 ];
@@ -165,7 +191,7 @@ export const projects = [
         SeeLink: "https://mathieulalande.netlify.app/",
     },
     {
-        iconUrl: threads,
+        iconUrl: estate,
         theme: 'btn-back-green',
         name: 'To Do List',
         description: 'Application Web qui permet aux utilisateurs de créer, modifier et supprimer des tâches et fournit une solution pratique et efficace pour gérer les tâches.',
@@ -173,16 +199,7 @@ export const projects = [
         SeeLink: "https://mathieu-todolist.netlify.app/",
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Personnalisation 3D de t-shirts ',
-        description: 'Créez votre T-shirt unique et exclusif avec notre tout nouvel outil de personnalisation 3D. Libérez votre imagination et définissez votre propre style 👋 !',
-        Gitlink: 'https://github.com/Mathieu-Lalande/CustomT-shirt',
-        SeeLink: "https://custom-t-shirt.netlify.app/",
-
-    },
-    {
-        iconUrl: snapgram,
+        iconUrl: summiz,
         theme: 'btn-back-pink',
         name: 'Tableau De Bord',
         description: 'Un tableau de bord pour une entreprise avec des outils puissants à utiliser. Il y a Kanban, un calendrier, un sélecteur de couleurs et bien d\'autres fonctionnalités. Il existe également un mode sombre.',
@@ -190,7 +207,7 @@ export const projects = [
         SeeLink: "https://mathieu-dashboard.netlify.app/",
     },
     {
-        iconUrl: estate,
+        iconUrl: threads,
         theme: 'btn-back-black',
         name: 'Application Météo',
         description: 'Découvrez notre application météo contenant toutes les informations en temps réel. Gardez une longueur d\'avance sur la météo grâce à notre interface complète et conviviale.',
@@ -198,11 +215,20 @@ export const projects = [
         SeeLink: "https://app-meteo-math.netlify.app/",
     },
     {
-        iconUrl: summiz,
+        iconUrl: snapgram,
         theme: 'btn-back-yellow',
         name: 'Ouidou',
         description: 'Refonte du site Internet Ouidou, société de conseil en informatique (ESN) basée à Paris avec 5 agences en France.',
         //Gitlink: 'https://github.com/adrianhajdin/project_ai_summarizer',
         SeeLink: "https://ouidou.fr/",
+    }
+    ,
+    {
+        iconUrl: nationsunis,
+        theme: 'btn-back-blue',
+        name: 'Yeremun',
+        description: 'Création du site pour cette organisation non gouvernementale (ONG) qui a pour but de faire des début sur le modèle des Nations Unis ',
+        //Gitlink: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        SeeLink: "https://yeremun.com/",
     }
 ];

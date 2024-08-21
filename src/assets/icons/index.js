@@ -16,7 +16,7 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
+import nationsunis from './nationsunis.svg'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
@@ -26,6 +26,8 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import angular from './angular.svg'
+import primeng from './primeng.svg'
 
 export {
     css,
@@ -46,7 +48,7 @@ export {
     typescript,
     linkedin,
     twitter,
-    car,
+    nationsunis,
     estate,
     pricewise,
     snapgram,
@@ -55,5 +57,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    angular,
+    primeng
 }
