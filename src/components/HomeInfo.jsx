@@ -6,11 +6,11 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Bonjour, je m"appelle
+        Bonjour, je m'appelle
         <span className='font-semibold mx-2 text-white'>Mathieu</span>
         👋
         <br />
-        Un suis un développeur fullstack Français 
+        Je suis un développeur fullstack Français 
       </h1>
     );
 

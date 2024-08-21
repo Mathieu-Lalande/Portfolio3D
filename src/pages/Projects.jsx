@@ -15,11 +15,9 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-      Les projets suivants mettent en valeur mes compétences et mon expérience à 
-      travers des exemples concrets de mon travail. Chaque projet est brièvement 
-      décrit avec des liens vers des référentiels de code et des démos en direct. 
-      Cela reflète ma capacité à résoudre des problèmes complexes, à travailler avec 
-      différentes technologies et à gérer des projets efficacement.
+      Les projets suivants mettent en valeur mes compétences Frontend et mon expérience à 
+      travers des exemples concrets de mon travail sur des projets personnels. Chaque projet est brièvement 
+      décrit avec des liens vers des référentiels de code et des démos en direct.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16 rounded-xl'>
