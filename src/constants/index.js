@@ -1,4 +1,4 @@
-import { bhb, giroscoutellier, ouidou, refactor } from "../assets/images";
+import { bhb, giroscoutellier, ouidou, refactor, portfolio, todolist, dashboard, meteo, ouidou_img, artsakh, woodflip } from "../assets/images";
 import {
     nationsunis,
     contact,
@@ -16,6 +16,7 @@ import {
     snapgram,
     summiz,
     tailwindcss,
+    wordpress,
     threads,
     typescript,
     angular,
@@ -82,11 +83,17 @@ export const skills = [
         imageUrl: primeng,
         name: "PrimeNG",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: wordpress,
+        name: "WordPress",
+        type: "CMS",
+    },
 ];
 
 export const experiences = [
     {
+        id: 1,
         title: "Alternant Développeur Fullstack",
         company_name: "Ouidou, Paris, France",
         icon: ouidou,
@@ -100,6 +107,7 @@ export const experiences = [
         ],
     },
     {
+        id: 2,
         title: "Alternant Développeur Frontend & Intégrateur",
         company_name: "Ouidou, Paris, France",
         icon: ouidou,
@@ -113,6 +121,7 @@ export const experiences = [
         ],
     },
     {
+        id: 3,
         title: "Stagiaire Développeur React.JS",
         company_name: "Refactor, Bengaluru, India",
         icon: refactor,
@@ -126,6 +135,7 @@ export const experiences = [
         ],
     },
     {
+        id: 4,
         title: "Stagiaire Développeur Web",
         company_name: "Ouidou, Paris, France",
         icon: ouidou,
@@ -138,6 +148,7 @@ export const experiences = [
         ],
     },
     {
+        id: 5,
         title: "Service Civique",
         company_name: "Bourges Handball 18, Bourges, France",
         icon: bhb,
@@ -150,6 +161,7 @@ export const experiences = [
         ],
     },
     {
+        id: 6,
         title: "Stagiaire architecte",
         company_name: "Giros & Coutellier, Paris, France",
         icon: giroscoutellier,
@@ -179,51 +191,56 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
+        imageUrl: portfolio,
         theme: 'btn-back-red',
         name: 'Mon Portfolio Personnel',
         description: 'Ceci est mon site Web de portfolio personnel. J\'ai utilisé React.js, Three.js, Tailwind CSS et Figma pour ce projet. Vous y retrouverez mes projets et mon parcours.',
-        Gitlink: 'https://github.com/Mathieu-Lalande/Portfolio',
+        //Gitlink: 'https://github.com/Mathieu-Lalande/Portfolio',
         SeeLink: "https://mathieulalande.netlify.app/",
-    },
-    {
+        },
+        {
         iconUrl: estate,
+        imageUrl: woodflip,
         theme: 'btn-back-green',
-        name: 'To Do List',
-        description: 'Application Web qui permet aux utilisateurs de créer, modifier et supprimer des tâches et fournit une solution pratique et efficace pour gérer les tâches.',
-        Gitlink: 'https://github.com/Mathieu-Lalande/ToDo-List',
-        SeeLink: "https://mathieu-todolist.netlify.app/",
+        name: 'WoodFlip',
+        description: 'WoodFlip est une plateforme de vente et de collection d\'objets uniques : des bâtons ornés de designs cartoon originaux. Grâce à une visualisation 3D entièrement interactive. Le site allie une interface intuitive et une expérience immersive pour les amateurs d’objets de collection originaux.',
+        //Gitlink: 'https://github.com/Mathieu-Lalande/ToDo-List',
+        SeeLink: "#",
     },
     {
         iconUrl: summiz,
+        imageUrl: dashboard,
         theme: 'btn-back-pink',
         name: 'Tableau De Bord',
         description: 'Un tableau de bord pour une entreprise avec des outils puissants à utiliser. Il y a Kanban, un calendrier, un sélecteur de couleurs et bien d\'autres fonctionnalités. Il existe également un mode sombre.',
-        Gitlink: 'https://github.com/Mathieu-Lalande/dashboard',
+        //Gitlink: 'https://github.com/Mathieu-Lalande/dashboard',
         SeeLink: "https://mathieu-dashboard.netlify.app/",
     },
     {
         iconUrl: threads,
+        imageUrl: meteo,
         theme: 'btn-back-black',
         name: 'Application Météo',
-        description: 'Découvrez notre application météo contenant toutes les informations en temps réel. Gardez une longueur d\'avance sur la météo grâce à notre interface complète et conviviale.',
-        Gitlink: 'https://github.com/Mathieu-Lalande/App-meteo',
+        description: 'Découvrez notre application météo contenant toutes les informations en temps réel. Gardez une longueur d\'avance sur la météo grâce à notre interface complète et conviviale. Choisissez une ville et obtenez les informations météorologiques.',
+        //Gitlink: 'https://github.com/Mathieu-Lalande/App-meteo',
         SeeLink: "https://app-meteo-math.netlify.app/",
     },
     {
         iconUrl: snapgram,
+        imageUrl: ouidou_img,
         theme: 'btn-back-yellow',
         name: 'Ouidou',
-        description: 'Refonte du site Internet Ouidou, société de conseil en informatique (ESN) basée à Paris avec 5 agences en France.',
+        description: 'Refonte du site Internet de Ouidou, cette société de conseil en informatique (ESN) est basée à Paris avec 5 agences en France. Ouidou Consulting offre des services de développement logiciel, conseil IT, et transformation digitale.',
         //Gitlink: 'https://github.com/adrianhajdin/project_ai_summarizer',
         SeeLink: "https://ouidou.fr/",
-    }
-    ,
+    },
     {
-        iconUrl: nationsunis,
+        iconUrl: artsakh,
+        imageUrl: artsakh,
         theme: 'btn-back-blue',
-        name: 'Yeremun',
-        description: 'Création du site pour cette organisation non gouvernementale (ONG) qui a pour but de faire des début sur le modèle des Nations Unis ',
-        //Gitlink: 'https://github.com/adrianhajdin/project_ai_summarizer',
-        SeeLink: "https://yeremun.com/",
-    }
+        name: 'Artsakh',
+        description: 'Création du site pour cette organisation non gouvernementale (ONG) qui a pour but de regrouper les acteurs pour une aide humanitaire en Arménie pour les réfugiés Karagaghiote. Ce site à été présenté au Sénat.',
+        //Gitlink: '',
+        SeeLink: "https://artsakhconnect.vercel.app/",
+    },
 ];

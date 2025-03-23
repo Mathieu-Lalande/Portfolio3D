@@ -189,8 +189,10 @@ body:has(.card[data-color="green"]:hover) {
 
 ::-webkit-scrollbar-track {
   background: rgb(203 213 225 / 0.2);
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #2b77e7;
+  border-radius: 5px;
 }

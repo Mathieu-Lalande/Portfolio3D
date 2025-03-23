@@ -15,9 +15,9 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-      Les projets suivants mettent en valeur mes compétences Frontend et mon expérience à 
-      travers des exemples concrets de mon travail sur des projets personnels. Chaque projet est brièvement 
-      décrit avec des liens vers des référentiels de code et des démos en direct.
+        Les projets suivants illustrent mon expertise en développement Frontend à travers des réalisations concrètes. 
+        Chaque projet met en avant mes compétences techniques et mon approche du design, avec une brève description 
+        accompagnée de liens vers les référentiels de code et des démonstrations en ligne.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16 rounded-xl'>
@@ -28,7 +28,7 @@ const Projects = () => {
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
                   src={project.iconUrl}
-                  alt='threads'
+                  alt={project.name}
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
@@ -39,6 +39,11 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
+              <img
+                src={project.imageUrl}
+                alt={project.name}
+                className='mt-5 w-full h-auto object-contain max-h-80 rounded-xl'
+              />
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 {project.Gitlink && (
                   <>

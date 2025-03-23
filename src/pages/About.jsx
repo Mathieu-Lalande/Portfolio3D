@@ -22,8 +22,11 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        Développeur fullstack basé sur Bourges et Paris, 
-        spécialisé dans la création de site, leur refonte et leurs aspects.
+          Développeur fullstack basé sur 
+            <span className='blue-gradient_text font-semibold drop-shadow text-lg'> Paris </span> 
+            et 
+            <span className='blue-gradient_text font-semibold drop-shadow text-lg'> Bourges</span>, 
+          spécialisé dans la création de site, leur refonte et leurs aspects.
         </p>
       </div>
 
@@ -50,8 +53,12 @@ const About = () => {
         <h3 className='subhead-text'>Expériences professionnelles.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            J'ai travaillé avec différentes groupes privés comme public,; ce qui m'a permis d'améliorer mes compétences et
-            faire équipe avec des gens passionnés. Voici le récapitulatif de mes projets personnels :
+            J'ai eu l'opportunité de collaborer avec divers groupes, aussi bien dans le secteur privé que public, 
+            ce qui m'a permis d'affiner mes compétences et de travailler aux côtés de personnes passionnées. 
+            Cette diversité d'expériences m'a apporté une vision élargie du développement et du travail en équipe.
+          </p>
+          <p>
+            Voici un aperçu de mes experiences personnels :
           </p>
         </div>
 
@@ -59,7 +66,7 @@ const About = () => {
           <VerticalTimeline>
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
-                key={experience.company_name}
+                key={experience.id}
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={

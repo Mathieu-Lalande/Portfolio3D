@@ -14,8 +14,7 @@ import redux from './redux.svg'
 import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
-import linkedin from './linkedin.svg'
-import twitter from './twitter.svg'
+import linkedin from './linkedin.png'
 import nationsunis from './nationsunis.svg'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
@@ -28,6 +27,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import angular from './angular.svg'
 import primeng from './primeng.svg'
+import wordpress from './logo_wordpress.png'
 
 export {
     css,
@@ -47,7 +47,6 @@ export {
     tailwindcss,
     typescript,
     linkedin,
-    twitter,
     nationsunis,
     estate,
     pricewise,
@@ -59,5 +58,6 @@ export {
     soundon,
     soundoff,
     angular,
-    primeng
+    primeng,
+    wordpress
 }
