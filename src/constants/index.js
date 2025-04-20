@@ -233,14 +233,14 @@ export const projects = [
         description: 'Refonte du site Internet de Ouidou, cette société de conseil en informatique (ESN) est basée à Paris avec 5 agences en France. Ouidou Consulting offre des services de développement logiciel, conseil IT, et transformation digitale.',
         //Gitlink: 'https://github.com/adrianhajdin/project_ai_summarizer',
         SeeLink: "https://ouidou.fr/",
-    },
-    {
+        },
+        {
         iconUrl: artsakh,
         imageUrl: artsakh,
         theme: 'btn-back-blue',
         name: 'Artsakh',
-        description: 'Création du site pour cette organisation non gouvernementale (ONG) qui a pour but de regrouper les acteurs pour une aide humanitaire en Arménie pour les réfugiés Karagaghiote. Ce site à été présenté au Sénat.',
+        description: 'Création du site pour cette organisation non gouvernementale (ONG) qui a pour but de regrouper les acteurs pour une aide humanitaire en Arménie pour les réfugiés Karagaghiote. On peut y trouver des partenariats, une carte interactive, des réalisations, ainsi qu\'un service de messagerie.',
         //Gitlink: '',
-        SeeLink: "https://artsakhconnect.vercel.app/",
+        SeeLink: "https://convergences-armenie.fr/",
     },
 ];
